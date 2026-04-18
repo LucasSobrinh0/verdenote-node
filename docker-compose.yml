@@ -6,7 +6,7 @@ services:
     environment:
       PORT: 4000
       VERDENOTE_CORE_URL: http://host.docker.internal:8080
-      VERDENOTE_NODE_CORS_ORIGIN: http://localhost:13000
+      VERDENOTE_NODE_CORS_ORIGIN: https://verdenote.sobrinholabs.tech
       VERDENOTE_REALTIME_SERVICE_SECRET: dev-realtime-service-secret-change-before-production
     ports:
       - "4000:4000"
