@@ -32,7 +32,7 @@ Production must keep `VERDENOTE_REALTIME_SERVICE_SECRET` private and identical i
 ```bash
 npm install
 VERDENOTE_CORE_URL=http://localhost:8080 \
-VERDENOTE_NODE_CORS_ORIGIN=http://localhost:3000 \
+VERDENOTE_NODE_CORS_ORIGIN=http://localhost:13000 \
 VERDENOTE_REALTIME_SERVICE_SECRET=dev-realtime-service-secret-change-before-production \
 npm run dev
 ```
